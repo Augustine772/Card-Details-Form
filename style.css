@@ -179,7 +179,7 @@ label {
 
     .img-col{
         background-image: url(img/bg-main-mobile.png);
-        height: 30vh;
+        height: 35vh;
         width: 100%;
     }
 
@@ -212,8 +212,8 @@ label {
         }
 
     .p-col{
-        margin-top: 10%;
-        margin-bottom: 4%;
+        margin-top: 15%;
+        margin-bottom: 5%;
     }
 
     .p-col p{
