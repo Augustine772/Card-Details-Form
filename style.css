@@ -238,4 +238,8 @@ label {
     .cvc-col{
         padding-right: 170px;
     }
+      
+      button{
+        width: 220px;
+    }
   }
