@@ -179,7 +179,7 @@ label {
 
     .img-col{
         background-image: url(img/bg-main-mobile.png);
-        height: 40vh;
+        height: 30vh;
         width: 100%;
     }
 
@@ -191,7 +191,7 @@ label {
     .card-front{
         position: absolute;
         top: 20%;
-        width: 50%;
+        width: 75%;
         left: 5%;
         height: 15vh;
         z-index: 1;
@@ -201,7 +201,7 @@ label {
         position: absolute;
         top: 5%;
         left: 15%;
-        width: 50%;
+        width: 75%;
         height: 15vh;
     }
 
