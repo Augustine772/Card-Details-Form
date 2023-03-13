@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Card Details Form</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <section>
+        <div class="row">
+            <div class="img-col">
+                <div class="card-front">
+                    <div class="p-col">
+                    <p>9591</p>
+                    <p>6489</p>
+                    <p>6389</p>
+                    <p>101E</p>
+                    </div>
+
+                    <div class="name-col">
+                        <p>FELICIA LEIRE</p>
+                        <p>09/100</p>
+                    </div>
+                </div>
+
+                <div class="card-back">
+                    <div class="p-col2">
+                        <p>000</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="form-col">
+                <div class="card-name">
+                    <label for="text">CARD HOLDER NAME</label>
+                    <input type="text" placeholder="e.g felicia leire" required>
+                </div>
+                
+                <div class="card-num">
+                <label for="text">CARD NUMBER</label>
+                <input type="text" id="card-num" placeholder=" e.g 9591 6489 6389 101E" required>
+                </div>
+                
+                <div class="cvc-col">
+                    <label for="day" class="exp">EXP. DATE[MM/YY]</label>
+                    <label for="cvc">CVC</label>
+                </div>
+                
+                <div class="date-col">
+                    <input type="number" id="day" name="day" min="1" max="31" placeholder="MM" required>
+                    <input type="number" id="year" name="year" min="1900" max="2030" placeholder="YY" required>
+                    <input type="text" placeholder="e.g 565" id="cvc" required>
+                </div>
+
+                <button>Confirm</button>
+            </div>
+        </div>
+    </section>
+    
+</body>
+</html>
