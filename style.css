@@ -172,7 +172,7 @@ label {
     font-size: 13px;
   }
 
-  @media(max-width:1000px){
+    @media(max-width:1000px){
     .row{
         flex-direction: column;
     }
@@ -191,7 +191,7 @@ label {
     .card-front{
         position: absolute;
         top: 20%;
-        width: 80%;
+        width: 60%;
         left: 5%;
         height: 25vh;
         z-index: 1;
@@ -200,13 +200,21 @@ label {
     .card-back{
         position: absolute;
         top: 5%;
-        left: 20%;
-        width: 80%;
+        left: 15%;
+        width: 60%;
         height: 25vh;
     }
 
     .p-col{
         margin-top: 20%;
         margin-bottom: 8%;
+    }
+
+    .p-col p{
+        font-size: 15px;
+    }
+
+    .name-col p{
+        font-size: 15px;
     }
   }
